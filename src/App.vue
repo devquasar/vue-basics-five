@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/navigation">Dynamic Nav</router-link> |
+      <router-link to="/editor">Inline Editor</router-link> |
+      <router-link to="/order">Order form</router-link> |
+      <router-link to="/search">Search</router-link> |
+      <router-link to="/grid">Grid</router-link> |
     </div>
     <router-view/>
   </div>
